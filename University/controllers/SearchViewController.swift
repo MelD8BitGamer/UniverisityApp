@@ -89,18 +89,6 @@ extension SearchViewController: UITableViewDelegate {
         return 150
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let insideCell = allSchools[indexPath.row].webPages.first else { showAlert(title: "Error", message: "Cannot access webpage")
-            return
-        }
-        guard let url = URL(string: insideCell) else {
-            showAlert(title: "Error", message: "could not turn this into a URL")
-            return
-        }
-        let vc = SFSafariViewController(url: url)
-        vc.delegate = self
-        present(vc, animated: true)
-    }
 }
 
 extension SearchViewController: SFSafariViewControllerDelegate {

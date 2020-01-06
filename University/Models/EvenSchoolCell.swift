@@ -14,17 +14,15 @@ class EvenSchoolCell: UITableViewCell {
     @IBOutlet weak var nameLabelOutlet: UILabel!
     @IBOutlet weak var countryLabelOutlet: UILabel!
     @IBOutlet weak var alphaTwoLabel: UILabel!
-    @IBOutlet weak var websiteOutlet: UILabel!
-    
-    
+
+
     func setUpDetails(eachCell: Universities) {
         nameLabelOutlet.text = eachCell.name
         countryLabelOutlet.text = "Country \(eachCell.country)"
         alphaTwoLabel.text = eachCell.alphaTwoCode
-        //why this is an optional???
-        websiteOutlet.text = eachCell.webPages.description
+        }
     }
    
-}
+
 
 

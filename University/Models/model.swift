@@ -14,7 +14,7 @@ struct Universities: Codable {
     let alphaTwoCode: String
     let webPages: [String]
     let name: String
-    let domain: [String]
+    let domains: [String]
     
     
     
@@ -24,7 +24,7 @@ struct Universities: Codable {
         case alphaTwoCode = "alpha_two_code"
         case webPages = "web_pages"
         case name
-        case domain = "domains"
+        case domains = "domains"
         
     }
     

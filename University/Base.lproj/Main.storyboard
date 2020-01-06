@@ -221,18 +221,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="website" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmj-ff-B7y">
-                                <rect key="frame" x="20" y="450.5" width="374" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="domain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szk-dC-Ozf">
-                                <rect key="frame" x="20" y="293.5" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="state" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qk-DU-0H8">
                                 <rect key="frame" x="20" y="252.5" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -245,37 +233,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7i-fG-DE4">
+                                <rect key="frame" x="20" y="450.5" width="374" height="30"/>
+                                <state key="normal" title="Website"/>
+                                <connections>
+                                    <action selector="websiteButton:" destination="n5z-Ne-siU" eventType="touchUpInside" id="qhQ-5X-G3u"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.95810350700000002" green="0.8475495972" blue="0.67204848770000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="omC-FG-98B" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="4OE-ME-7Uq"/>
+                            <constraint firstItem="J7i-fG-DE4" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="4bc-rg-3u0"/>
                             <constraint firstItem="pX5-Hn-Y3F" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="4fo-MJ-ZCG"/>
+                            <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="omC-FG-98B" secondAttribute="trailing" constant="20" id="4g8-ct-Y4T"/>
+                            <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="J7i-fG-DE4" secondAttribute="trailing" constant="20" id="5af-NW-HNH"/>
                             <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="pX5-Hn-Y3F" secondAttribute="trailing" constant="20" id="5l1-XF-tsa"/>
                             <constraint firstItem="2qk-DU-0H8" firstAttribute="top" secondItem="pX5-Hn-Y3F" secondAttribute="bottom" constant="20" id="7FM-wK-pvv"/>
                             <constraint firstItem="2qk-DU-0H8" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="Mtv-59-5i7"/>
                             <constraint firstItem="y2V-bl-2h7" firstAttribute="top" secondItem="Mb2-3f-cmm" secondAttribute="top" constant="8" id="Rpg-uW-DUY"/>
                             <constraint firstItem="pX5-Hn-Y3F" firstAttribute="top" secondItem="y2V-bl-2h7" secondAttribute="bottom" constant="90" id="SzJ-tR-Lfy"/>
-                            <constraint firstItem="wmj-ff-B7y" firstAttribute="top" secondItem="omC-FG-98B" secondAttribute="bottom" constant="20" id="T8a-1d-bgD"/>
-                            <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="szk-dC-Ozf" secondAttribute="trailing" constant="20" id="Ud1-KA-RuT"/>
-                            <constraint firstItem="szk-dC-Ozf" firstAttribute="top" secondItem="2qk-DU-0H8" secondAttribute="bottom" constant="20" id="YNa-Md-fdW"/>
                             <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="y2V-bl-2h7" secondAttribute="trailing" constant="20" id="YaR-Z3-UP6"/>
-                            <constraint firstItem="szk-dC-Ozf" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="ZdU-3v-plX"/>
+                            <constraint firstItem="J7i-fG-DE4" firstAttribute="top" secondItem="omC-FG-98B" secondAttribute="bottom" constant="20" id="Z4L-5l-dZF"/>
                             <constraint firstItem="y2V-bl-2h7" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="jcO-gi-JlW"/>
                             <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="2qk-DU-0H8" secondAttribute="trailing" constant="20" id="oha-Lr-FFL"/>
-                            <constraint firstItem="omC-FG-98B" firstAttribute="top" secondItem="szk-dC-Ozf" secondAttribute="bottom" constant="95" id="pvT-zx-PBC"/>
-                            <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="wmj-ff-B7y" secondAttribute="trailing" constant="20" id="rqn-in-gpH"/>
-                            <constraint firstItem="omC-FG-98B" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="u5N-SA-ERV"/>
-                            <constraint firstItem="Mb2-3f-cmm" firstAttribute="trailing" secondItem="omC-FG-98B" secondAttribute="trailing" constant="20" id="vct-JW-oOx"/>
-                            <constraint firstItem="wmj-ff-B7y" firstAttribute="leading" secondItem="Mb2-3f-cmm" secondAttribute="leading" constant="20" id="xx0-oq-gCi"/>
+                            <constraint firstItem="omC-FG-98B" firstAttribute="top" secondItem="2qk-DU-0H8" secondAttribute="bottom" constant="136" id="u2a-SC-7rc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mb2-3f-cmm"/>
                     </view>
                     <navigationItem key="navigationItem" id="tzo-yB-lnV"/>
                     <connections>
                         <outlet property="universityCountry" destination="pX5-Hn-Y3F" id="ZJO-Bh-nEh"/>
-                        <outlet property="universityDomain" destination="szk-dC-Ozf" id="rno-Tj-9cp"/>
                         <outlet property="universityName" destination="y2V-bl-2h7" id="FIt-iB-g52"/>
                         <outlet property="universityState" destination="2qk-DU-0H8" id="rNR-KG-Zex"/>
-                        <outlet property="universityWebsite" destination="wmj-ff-B7y" id="Fmi-mS-vYo"/>
+                        <outlet property="websiteButtonOutlet" destination="J7i-fG-DE4" id="Otu-lb-Etg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9W2-W9-3We" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
