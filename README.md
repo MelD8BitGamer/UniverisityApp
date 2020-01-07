@@ -12,4 +12,4 @@ This is an app that displays all the universities around the world. The universi
 
 ## Gif
 
-![gif] (Assests/app.gif)
+![gif](Assests/UniversityAppGif.gif)
