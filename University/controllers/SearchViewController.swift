@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SafariServices
 
 class SearchViewController: UIViewController {
     
@@ -76,7 +75,6 @@ extension SearchViewController: UITableViewDataSource {
 }
 
 extension SearchViewController: UISearchBarDelegate {
-    //TODO: fix this search bar
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 
         userQuery = searchText
@@ -91,6 +89,4 @@ extension SearchViewController: UITableViewDelegate {
     
 }
 
-extension SearchViewController: SFSafariViewControllerDelegate {
-    
-}
+

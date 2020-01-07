@@ -10,7 +10,7 @@ import UIKit
 import SafariServices
 
 class DetailedViewController: UIViewController {
-    //TODO: Make this work with detailed view instead
+   
     
     var universityRef: Universities?
     
@@ -27,7 +27,7 @@ class DetailedViewController: UIViewController {
         setUpDetail()
         
     }
-    
+    //This was done in t6he button but it can be done in any function
     @IBAction func websiteButton(_ sender: UIButton) {
         guard let string = universityRef?.webPages.first,
             let url = URL(string: string) else {
