@@ -22,6 +22,7 @@
 		4D66F40E23BE46AA00EDD0EB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66F40D23BE46AA00EDD0EB /* SearchViewController.swift */; };
 		4D66F41123BE4BC200EDD0EB /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66F41023BE4BC200EDD0EB /* SchoolCell.swift */; };
 		4DAF365323BE734C00B8A112 /* showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF365223BE734C00B8A112 /* showAlert.swift */; };
+		4DC319D923C6306D0059EB0B /* secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC319D823C6306D0059EB0B /* secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		4D66F40D23BE46AA00EDD0EB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4D66F41023BE4BC200EDD0EB /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
 		4DAF365223BE734C00B8A112 /* showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlert.swift; sourceTree = "<group>"; };
+		4DC319D823C6306D0059EB0B /* secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		4D66F3E823BE41E800EDD0EB = {
 			isa = PBXGroup;
 			children = (
+				4DC319D723C630500059EB0B /* Secrets */,
 				4D66F3F323BE41E800EDD0EB /* University */,
 				4D66F3F223BE41E800EDD0EB /* Products */,
 			);
@@ -124,6 +127,14 @@
 				4DAF365223BE734C00B8A112 /* showAlert.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		4DC319D723C630500059EB0B /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				4DC319D823C6306D0059EB0B /* secret.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				4D66F3F923BE41E800EDD0EB /* ViewController.swift in Sources */,
 				4D66F3F523BE41E800EDD0EB /* AppDelegate.swift in Sources */,
 				4D66F41123BE4BC200EDD0EB /* SchoolCell.swift in Sources */,
+				4DC319D923C6306D0059EB0B /* secret.swift in Sources */,
 				4D66F3F723BE41E800EDD0EB /* SceneDelegate.swift in Sources */,
 				4D66F40923BE430400EDD0EB /* model.swift in Sources */,
 				4D20FBDA23BE5D39003FF73D /* APIClient.swift in Sources */,

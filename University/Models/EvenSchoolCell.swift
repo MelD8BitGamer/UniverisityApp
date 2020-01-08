@@ -20,6 +20,7 @@ class EvenSchoolCell: UITableViewCell {
         nameLabelOutlet.text = eachCell.name
         countryLabelOutlet.text = "Country \(eachCell.country)"
         alphaTwoLabel.text = eachCell.alphaTwoCode
+        
         }
     }
    

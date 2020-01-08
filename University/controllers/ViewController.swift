@@ -73,6 +73,8 @@ extension ViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "schoolCell", for: indexPath) as? SchoolCell else { fatalError("could not load data")}
         cell.countryLabel.text = allUniversities[indexPath.section][indexPath.row].country
         cell.nameLabel.text = allUniversities[indexPath.section][indexPath.row].name
+        //cell.backgroundColor = #colorLiteral(red: 0, green: 1, blue: 0, alpha: 1).cgColor
+        //to make each cell a different color
         return cell
     }
 }
